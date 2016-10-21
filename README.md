@@ -25,3 +25,5 @@ v. 3.4.1.1.b:
 This software is provided as-is, and the author disclaims all warranties for for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.  
 
 The FastQC software by Babraham Bioinformatics, which is included in the download file together with the script (as it was in the official 3.4.1.1 version), is licensed under a GNU General Public License, that can be found under FastQC/LICENSE.txt.
+
+The wrapper scripts are by Matt Dyer from Ion Torrent Systems, Inc.
