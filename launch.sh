@@ -109,7 +109,7 @@ if [ ${RET} -eq 0 ]; then
         printf "<li><a target=\"_blank\" href=\"${FASTQC_OUT_DIR}/fastqc_report.html\">FastQC Report - All Reads</a></li>\n"  
     ) >> ${REPORT_HTML}  
 else  
-    printf "<p>No cumulative data found.</p>" >> ${REPORT_HTML}
+    printf "<p>No cumulative data found. Working...</p>" >> ${REPORT_HTML}
     # checking BAMs for the biggest one
     BIGGEST_BAM_PATH=$(find ${ANALYSIS_DIR} -maxdepth 2 -name "*.bam" -printf "%k KB\t%p\n" | sort -rn | head -1 | cut -f2)
     run ${FASTQC} "${BIGGEST_BAM_PATH}" --outdir="${TSP_FILEPATH_PLUGIN_DIR}/";
