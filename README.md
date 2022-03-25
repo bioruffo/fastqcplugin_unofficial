@@ -1,6 +1,6 @@
 # README #
 
-This is a fork of Matt Dyer's FastQC plugin for Ion Torrent Servers (version 3.4.1.1, 01/09/2013), which is itself a wrapper around Babraham institute's FastQC program.  
+This is a mirror of Matt Dyer's FastQC plugin for Ion Torrent Servers (version 3.4.1.1, 01/09/2013), which is itself a wrapper around Babraham institute's FastQC program.  
 It is an unofficial version, with the purpose of fixing the plugin's behavior on Ion Proton servers.  
 
 FastQC program: [http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/)  
